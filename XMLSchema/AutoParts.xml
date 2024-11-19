@@ -1,0 +1,36 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="autoParts">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="storage">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="parts" type="Parts" minOccurs="1" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="Parts">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="category" type="xsd:string"/>
+            <xsd:element name="brand" type="xsd:string"/>
+            <xsd:element name="price" type="xsd:decimal"/>
+            <xsd:element name="condition" type="Condition"/>
+        </xsd:sequence>
+        <xsd:attribute name="code" type="xsd:integer" use="required"/>
+    </xsd:complexType>
+
+    <xsd:simpleType name="Condition">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="New"/>
+            <xsd:enumeration value="Used"/>
+            <xsd:enumeration value="Damaged"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>
+

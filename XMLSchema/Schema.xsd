@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AutoParts.xml">
+    <storage>
+        <parts code="401">
+            <name>Oil filter</name>
+            <category>Filter</category>
+            <brand>Bosch</brand>
+            <price>25.50</price>
+            <condition>New</condition>
+        </parts>
+        <parts code="101">
+            <name>Brake disk</name>
+            <category>Brake system</category>
+            <brand>Brembo</brand>
+            <price>120.00</price>
+            <condition>Used</condition>
+        </parts>
+        <parts code="201">
+            <name>Spark plugs</name>
+            <category>Electric system</category>
+            <brand>NGK</brand>
+            <price>15.75</price>
+            <condition>New</condition>
+        </parts>
+        <parts code="301">
+            <name>Shock absorber</name>
+            <category>Suspension</category>
+            <brand>Monroe</brand>
+            <price>170.00</price>
+            <condition>Damaged</condition>
+        </parts>
+    </storage>
+</autoParts>
