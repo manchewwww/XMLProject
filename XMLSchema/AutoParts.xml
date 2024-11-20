@@ -37,7 +37,7 @@
                 <height>10.0</height>
             </dimensions>
         </parts>
-	<parts code="401" origin="Germany" warranty="2 years" manufacturerDate="2023-06-15">
+	    <parts code="401" origin="Germany" warranty="2 years" manufacturerDate="2023-06-15">
             <name>Oil filter</name>
             <category>Filter</category>
             <brand>Bosch</brand>
