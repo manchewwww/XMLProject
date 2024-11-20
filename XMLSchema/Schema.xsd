@@ -27,10 +27,11 @@
             <xsd:element name="category" type="xsd:string"/>
             <xsd:element name="brand" type="xsd:string"/>
             <xsd:element name="price" type="xsd:decimal"/>
+            <xsd:element name="quantity" type="xsd:integer"/>
             <xsd:element name="condition" type="Condition"/>
             <xsd:element name="dimensions" type="Dimensions"/>
         </xsd:sequence>
-        <xsd:attribute name="code" type="xsd:integer" use="required"/>
+        <xsd:attribute name="code" type="xsd:ID" use="required"/>
         <xsd:attribute name="origin" type="xsd:string"/>
         <xsd:attribute name="warranty" type="xsd:string"/>
         <xsd:attribute name="manufacturerDate" type="xsd:date"/>
@@ -55,10 +56,12 @@
     <xsd:complexType name="Supplier">
         <xsd:sequence>
             <xsd:element name="supplierName" type="xsd:string"/>
-            <xsd:element name="contact" type="xsd:string"/>
+            <xsd:element name="phone" type="xsd:string"/>
+            <xsd:element name="email" type="xsd:string"/>
+            <xsd:element name="address" type="xsd:string"/>
             <xsd:element name="location" type="xsd:string"/>
         </xsd:sequence>
-        <xsd:attribute name="supplierID" type="xsd:integer" use="required"/>
+        <xsd:attribute name="supplierID" type="xsd:ID" use="required"/>
     </xsd:complexType>
 </xsd:schema>
 
