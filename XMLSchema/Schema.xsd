@@ -1,33 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
-<autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AutoParts.xml">
-    <storage>
-        <parts code="401">
-            <name>Oil filter</name>
-            <category>Filter</category>
-            <brand>Bosch</brand>
-            <price>25.50</price>
-            <condition>New</condition>
-        </parts>
-        <parts code="101">
-            <name>Brake disk</name>
-            <category>Brake system</category>
-            <brand>Brembo</brand>
-            <price>120.00</price>
-            <condition>Used</condition>
-        </parts>
-        <parts code="201">
-            <name>Spark plugs</name>
-            <category>Electric system</category>
-            <brand>NGK</brand>
-            <price>15.75</price>
-            <condition>New</condition>
-        </parts>
-        <parts code="301">
-            <name>Shock absorber</name>
-            <category>Suspension</category>
-            <brand>Monroe</brand>
-            <price>170.00</price>
-            <condition>Damaged</condition>
-        </parts>
-    </storage>
-</autoParts>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="autoParts">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="storage">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="parts" type="Parts" minOccurs="1" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+                <xsd:element name="suppliers">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="supplier" type="Supplier"  minOccurs="1" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="Parts">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="category" type="xsd:string"/>
+            <xsd:element name="brand" type="xsd:string"/>
+            <xsd:element name="price" type="xsd:decimal"/>
+            <xsd:element name="condition" type="Condition"/>
+            <xsd:element name="dimensions" type="Dimensions"/>
+        </xsd:sequence>
+        <xsd:attribute name="code" type="xsd:integer" use="required"/>
+        <xsd:attribute name="origin" type="xsd:string"/>
+        <xsd:attribute name="warranty" type="xsd:string"/>
+        <xsd:attribute name="manufacturerDate" type="xsd:date"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="Dimensions">
+        <xsd:sequence>
+            <xsd:element name="length" type="xsd:decimal"/>
+            <xsd:element name="width" type="xsd:decimal"/>
+            <xsd:element name="height" type="xsd:decimal"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:simpleType name="Condition">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="New"/>
+            <xsd:enumeration value="Used"/>
+            <xsd:enumeration value="Damaged"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="Supplier">
+        <xsd:sequence>
+            <xsd:element name="supplierName" type="xsd:string"/>
+            <xsd:element name="contact" type="xsd:string"/>
+            <xsd:element name="location" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="supplierID" type="xsd:integer" use="required"/>
+    </xsd:complexType>
+</xsd:schema>
+
