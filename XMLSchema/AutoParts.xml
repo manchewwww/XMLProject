@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema.xsd">
     <storage>
-        <parts code="401" origin="Germany" warranty="2 years" manufacturerDate="2023-06-15">
-            <name>Oil filter</name>
-            <category>Filter</category>
-            <brand>Bosch</brand>
-            <price>25.50</price>
-            <condition>New</condition>
-            <dimensions>
-                <length>10.0</length>
-                <width>8.0</width>
-                <height>6.0</height>
-            </dimensions>
-        </parts>
         <parts code="101" origin="Italy" warranty="1 year" manufacturerDate="2021-05-10">
             <name>Brake disk</name>
             <category>Brakes</category>
@@ -49,7 +37,19 @@
                 <height>10.0</height>
             </dimensions>
         </parts>
-        <parts code="401" origin="Germany" warranty="2 years" manufacturerDate="2020-11-05">
+	<parts code="401" origin="Germany" warranty="2 years" manufacturerDate="2023-06-15">
+            <name>Oil filter</name>
+            <category>Filter</category>
+            <brand>Bosch</brand>
+            <price>25.50</price>
+            <condition>New</condition>
+            <dimensions>
+                <length>10.0</length>
+                <width>8.0</width>
+                <height>6.0</height>
+            </dimensions>
+        </parts>
+        <parts code="501" origin="Germany" warranty="2 years" manufacturerDate="2020-11-05">
             <name>Shock absorber</name>
             <category>Suspension</category>
             <brand>DACO</brand>
