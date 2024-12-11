@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
+    <storage>
+        <parts code="P004" origin="USA" warranty="4 years" manufacturerDate="2020-05-12">
+            <name>Air Filter</name>
+            <category>Filters</category>
+            <brand>K&amp;N</brand>
+            <price>35.00</price>
+            <quantity>75</quantity>
+            <condition>New</condition>
+            <dimensions>
+                <length>12.0</length>
+                <width>8.0</width>
+                <height>6.0</height>
+            </dimensions>
+        </parts>
+    </storage>
+    <suppliers>
+        <supplier supplierID="S004">
+            <supplierName>USA Auto Supply</supplierName>
+            <phone>+1 555 123 4567</phone>
+            <email>info@usautosupply.com</email>
+            <address>New York, 5th Avenue 45</address>
+            <location>USA</location>
+        </supplier>
+    </suppliers>
+</autoParts>

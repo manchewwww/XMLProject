@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
+    <storage>
+        <parts code="P005" origin="Japan" warranty="1 year" manufacturerDate="2021-11-22">
+            <name>Timing Belt</name>
+            <category>Engine</category>
+            <brand>Mitsubishi</brand>
+            <price>60.00</price>
+            <quantity>30</quantity>
+            <condition>New</condition>
+            <dimensions>
+                <length>100.0</length>
+                <width>2.5</width>
+                <height>0.5</height>
+            </dimensions>
+        </parts>
+    </storage>
+    <suppliers>
+        <supplier supplierID="S005">
+            <supplierName>Tokyo Auto Parts</supplierName>
+            <phone>+81 333 444 555</phone>
+            <email>contact@tokyoautoparts.jp</email>
+            <address>Tokyo, Shinjuku 9</address>
+            <location>Japan</location>
+        </supplier>
+    </suppliers>
+</autoParts>
