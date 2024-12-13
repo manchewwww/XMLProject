@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
     <storage>
-        <parts code="P003" origin="France" warranty="2 years" manufacturerDate="2023-03-05">
-            <name>Battery</name>
-            <category>Electronics</category>
+        <parts code="P003" origin="Франция" warranty="2 години" manufacturerDate="2023-03-05">
+            <name>Акумулатор</name>
+            <category>Електричество</category>
             <brand>Varta</brand>
             <price>180.00</price>
             <quantity>10</quantity>
@@ -20,8 +20,8 @@
             <supplierName>ElectroParts Ltd</supplierName>
             <phone>+33 123 987 654</phone>
             <email>support@electroparts.fr</email>
-            <address>Paris, Rue de Lyon 3</address>
-            <location>France</location>
+            <address>Париш, Rue de Lyon 3</address>
+            <location>Франция</location>
         </supplier>
     </suppliers>
 </autoParts>

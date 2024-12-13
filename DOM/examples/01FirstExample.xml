@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
     <storage>
-        <parts code="P001" origin="Germany" warranty="5 years" manufacturerDate="2022-01-15">
-            <name>Oil Filter</name>
-            <category>Filters</category>
+        <parts code="P001" origin="Германия" warranty="5 години" manufacturerDate="2022-01-15">
+            <name>Маслен филтър</name>
+            <category>Филтри</category>
             <brand>Bosch</brand>
             <price>25.50</price>
             <quantity>50</quantity>
@@ -20,8 +20,8 @@
             <supplierName>Auto Parts Ltd</supplierName>
             <phone>+44 123 456 789</phone>
             <email>info@autoparts.com</email>
-            <address>London, Industrial Road 5</address>
-            <location>UK</location>
+            <address>Лондон, Индустриален път 5</address>
+            <location>Англия</location>
         </supplier>
     </suppliers>
 </autoParts>

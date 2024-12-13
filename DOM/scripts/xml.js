@@ -15,12 +15,12 @@ function createXMLDocument() {
     const storageElement = doc.createElement("storage");
     const partsElement = doc.createElement("parts");
     partsElement.setAttribute("code", "P001");
-    partsElement.setAttribute("origin", "Germany");
-    partsElement.setAttribute("warranty", "5 years");
+    partsElement.setAttribute("origin", "Германия");
+    partsElement.setAttribute("warranty", "5 години");
     partsElement.setAttribute("manufacturerDate", "2022-01-15");
 
-    partsElement.appendChild(createElementWithText("name", "Oil filter"));
-    partsElement.appendChild(createElementWithText("category", "Filters"));
+    partsElement.appendChild(createElementWithText("name", "Маслен филтър"));
+    partsElement.appendChild(createElementWithText("category", "Филтри"));
     partsElement.appendChild(createElementWithText("brand", "Bosch"));
     partsElement.appendChild(createElementWithText("price", "25.50"));
     partsElement.appendChild(createElementWithText("quantity", "50"));
@@ -42,8 +42,8 @@ function createXMLDocument() {
     supplierElement.appendChild(createElementWithText("supplierName", "Auto Parts Ltd"));
     supplierElement.appendChild(createElementWithText("phone", "+44 123 456 789"));
     supplierElement.appendChild(createElementWithText("email", "info@autoparts.com"));
-    supplierElement.appendChild(createElementWithText("address", "London, Industrial Road 5"));
-    supplierElement.appendChild(createElementWithText("location", "UK"));
+    supplierElement.appendChild(createElementWithText("address", "Лондон, Industrial Road 5"));
+    supplierElement.appendChild(createElementWithText("location", "Англия"));
 
     suppliersElement.appendChild(supplierElement);
     autoPartsElement.appendChild(suppliersElement);
