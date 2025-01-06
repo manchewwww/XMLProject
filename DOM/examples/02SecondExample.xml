@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../XSLT/HTML/filtered-parts-to-html.xslt"?>
 <autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
     <storage>
         <parts code="P002" origin="Италия" warranty="3 години" manufacturerDate="2021-09-10">

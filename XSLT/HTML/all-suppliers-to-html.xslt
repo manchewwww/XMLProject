@@ -11,6 +11,7 @@
           <xsl:for-each select="autoParts/suppliers/supplier">
             <li>
               <strong><xsl:value-of select="supplierName"/></strong><br/>
+              ID: <xsl:value-of select="@supplierID"/><br/>
               Phone: <xsl:value-of select="phone"/><br/>
               Email: <xsl:value-of select="email"/><br/>
               Address: <xsl:value-of select="address"/><br/>

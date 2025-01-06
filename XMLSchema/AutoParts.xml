@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/HTML/all-parts-to-html.xslt"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../XSLT/HTML/all-parts-dimensions-to-html.xslt"?> -->
 <autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema.xsd">
     <storage>
         <parts code="ID101" origin="Italy" warranty="1 year" manufacturerDate="2021-05-10">

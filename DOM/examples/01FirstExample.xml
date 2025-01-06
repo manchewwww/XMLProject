@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../XSLT/HTML/all-suppliers-to-html.xslt"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../XSLT/XML/parts-by-category-to-xml.xslt"?> -->
 <autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
     <storage>
         <parts code="P001" origin="Германия" warranty="5 години" manufacturerDate="2022-01-15">
