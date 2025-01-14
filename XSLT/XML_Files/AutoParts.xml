@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="../HTML/all-parts-to-html.xslt"?>-->
+ <?xml-stylesheet type="text/xsl" href="../HTML/all-parts-dimensions-to-html.xslt"?>
+<autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema.xsd">
+    <storage>
+        <parts code="ID101" origin="Italy" warranty="1 year" manufacturerDate="2021-05-10">
+            <name>Brake disc</name>
+            <category>Brakes</category>
+            <brand>Brembo</brand>
+            <price>120.00</price>
+            <quantity>1</quantity>
+            <condition>Used</condition>
+            <dimensions>
+                <length>30.0</length>
+                <width>30.0</width>
+                <height>4.0</height>
+            </dimensions>
+        </parts>
+        <parts code="ID201" origin="Japan" warranty="6 months" manufacturerDate="2023-01-20">
+            <name>Spark plugs</name>
+            <category>Electric system</category>
+            <brand>NGK</brand>
+            <price>15.75</price>
+            <quantity>11</quantity>
+            <condition>New</condition>
+            <dimensions>
+                <length>5.0</length>
+                <width>2.0</width>
+                <height>2.0</height>
+            </dimensions>
+        </parts>
+        <parts code="ID301" origin="USA" warranty="No warranty" manufacturerDate="2020-11-05">
+            <name>Shock absorber</name>
+            <category>Suspension</category>
+            <brand>Monroe</brand>
+            <price>170.00</price>
+            <quantity>21</quantity>
+            <condition>Damaged</condition>
+            <dimensions>
+                <length>50.0</length>
+                <width>10.0</width>
+                <height>10.0</height>
+            </dimensions>
+        </parts>
+	    <parts code="ID401" origin="Germany" warranty="2 years" manufacturerDate="2023-06-15">
+            <name>Oil filter</name>
+            <category>Filter</category>
+            <brand>Bosch</brand>
+            <price>25.50</price>
+            <quantity>31</quantity>
+            <condition>New</condition>
+            <dimensions>
+                <length>10.0</length>
+                <width>8.0</width>
+                <height>6.0</height>
+            </dimensions>
+        </parts>
+        <parts code="ID501" origin="Germany" warranty="2 years" manufacturerDate="2020-11-05">
+            <name>Shock absorber</name>
+            <category>Suspension</category>
+            <brand>DACO</brand>
+            <price>300.00</price>
+            <quantity>41</quantity>
+            <condition>New</condition>
+            <dimensions>
+                <length>55.0</length>
+                <width>10.0</width>
+                <height>10.0</height>
+            </dimensions>
+        </parts>
+    </storage>
+    <suppliers>
+        <supplier supplierID="ID102">
+            <supplierName>Inter cars</supplierName>
+            <phone>+35924193659</phone>
+            <email>intercarsbg@intercars.eu</email>
+            <address>бул. „Цариградско шосе“ №115А
+                София 1784</address>
+            <location>Bulgaria</location>
+        </supplier>
+        <supplier supplierID="ID202">
+            <supplierName>Auto Supplies Co.</supplierName>
+            <phone>+123456789</phone>
+            <email>autosuppliesco@autosupplies.eu</email>
+            <address>50.83528, 9.920827</address>
+            <location>Germany</location>
+        </supplier>
+        <supplier supplierID="ID302">
+            <supplierName>Auto Supplies Co.</supplierName>
+            <phone>+123456789</phone>
+            <email>autosuppliesco@autosupplies.eu</email>
+            <address>50.83528, 9.920827</address>
+            <location>Italy</location>
+        </supplier>
+    </suppliers>
+</autoParts>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../HTML/all-suppliers-to-html.xslt"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../../XSLT/XML/parts-by-category-to-xml.xslt"?> -->
+<autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
+    <storage>
+        <parts code="P001" origin="Германия" warranty="5 години" manufacturerDate="2022-01-15">
+            <name>Маслен филтър</name>
+            <category>Филтри</category>
+            <brand>Bosch</brand>
+            <price>25.50</price>
+            <quantity>50</quantity>
+            <condition>New</condition>
+            <dimensions>
+                <length>10.5</length>
+                <width>8.2</width>
+                <height>7.0</height>
+            </dimensions>
+        </parts>
+    </storage>
+    <suppliers>
+        <supplier supplierID="S001">
+            <supplierName>Auto Parts Ltd</supplierName>
+            <phone>+44 123 456 789</phone>
+            <email>info@autoparts.com</email>
+            <address>Лондон, Индустриален път 5</address>
+            <location>Англия</location>
+        </supplier>
+    </suppliers>
+</autoParts>

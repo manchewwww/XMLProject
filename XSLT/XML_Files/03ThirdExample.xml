@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../TEXT/parts-to-text.xslt"?>
+<autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
+    <storage>
+        <parts code="P003" origin="Франция" warranty="2 години" manufacturerDate="2023-03-05">
+            <name>Акумулатор</name>
+            <category>Електричество</category>
+            <brand>Varta</brand>
+            <price>180.00</price>
+            <quantity>10</quantity>
+            <condition>New</condition>
+            <dimensions>
+                <length>35.0</length>
+                <width>17.0</width>
+                <height>20.0</height>
+            </dimensions>
+        </parts>
+    </storage>
+    <suppliers>
+        <supplier supplierID="S003">
+            <supplierName>ElectroParts Ltd</supplierName>
+            <phone>+33 123 987 654</phone>
+            <email>support@electroparts.fr</email>
+            <address>Париш, Rue de Lyon 3</address>
+            <location>Франция</location>
+        </supplier>
+    </suppliers>
+</autoParts>

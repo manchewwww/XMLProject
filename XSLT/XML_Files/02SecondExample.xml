@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../HTML/filtered-parts-to-html.xslt"?>
+<autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
+    <storage>
+        <parts code="P002" origin="Италия" warranty="3 години" manufacturerDate="2021-09-10">
+            <name>Спирачен диск</name>
+            <category>Спирачна система</category>
+            <brand>Brembo</brand>
+            <price>120.00</price>
+            <quantity>20</quantity>
+            <condition>New</condition>
+            <dimensions>
+                <length>28.0</length>
+                <width>28.0</width>
+                <height>4.5</height>
+            </dimensions>
+        </parts>
+    </storage>
+    <suppliers>
+        <supplier supplierID="S002">
+            <supplierName>Mechanica Ltd</supplierName>
+            <phone>+39 987 654 321</phone>
+            <email>sales@mechanica.it</email>
+            <address>Рим, Via Roma 12</address>
+            <location>Италия</location>
+        </supplier>
+    </suppliers>
+</autoParts>

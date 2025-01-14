@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../XML/sample-to-xml.xslt"?>
+<autoParts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../XMLSchema/Schema.xsd">
+    <storage>
+        <parts code="P005" origin="Япония" warranty="1 година" manufacturerDate="2021-11-22">
+            <name>Ангренажен ремък</name>
+            <category>Двигател</category>
+            <brand>Mitsubishi</brand>
+            <price>60.00</price>
+            <quantity>30</quantity>
+            <condition>New</condition>
+            <dimensions>
+                <length>100.0</length>
+                <width>2.5</width>
+                <height>0.5</height>
+            </dimensions>
+        </parts>
+    </storage>
+    <suppliers>
+        <supplier supplierID="S005">
+            <supplierName>Tokyo Auto Parts</supplierName>
+            <phone>+81 333 444 555</phone>
+            <email>contact@tokyoautoparts.jp</email>
+            <address>Токио, Shinjuku 9</address>
+            <location>Япония</location>
+        </supplier>
+    </suppliers>
+</autoParts>
